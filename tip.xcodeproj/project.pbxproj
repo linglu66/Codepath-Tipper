@@ -15,6 +15,7 @@
 		10DCFACA24E77C4D00FAD67D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DCFAC824E77C4D00FAD67D /* LaunchScreen.storyboard */; };
 		10DCFAD524E77C4D00FAD67D /* tipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DCFAD424E77C4D00FAD67D /* tipTests.swift */; };
 		10DCFAE024E77C4D00FAD67D /* tipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DCFADF24E77C4D00FAD67D /* tipUITests.swift */; };
+		10DCFAEE24E78CA900FAD67D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DCFAED24E78CA900FAD67D /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		10DCFADB24E77C4D00FAD67D /* tipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DCFADF24E77C4D00FAD67D /* tipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipUITests.swift; sourceTree = "<group>"; };
 		10DCFAE124E77C4D00FAD67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10DCFAED24E78CA900FAD67D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		10DCFABC24E77C4A00FAD67D /* tip */ = {
 			isa = PBXGroup;
 			children = (
+				10DCFAED24E78CA900FAD67D /* SettingsViewController.swift */,
 				10DCFABD24E77C4A00FAD67D /* AppDelegate.swift */,
 				10DCFABF24E77C4A00FAD67D /* SceneDelegate.swift */,
 				10DCFAC124E77C4A00FAD67D /* ViewController.swift */,
@@ -262,6 +265,7 @@
 				10DCFAC224E77C4A00FAD67D /* ViewController.swift in Sources */,
 				10DCFABE24E77C4A00FAD67D /* AppDelegate.swift in Sources */,
 				10DCFAC024E77C4A00FAD67D /* SceneDelegate.swift in Sources */,
+				10DCFAEE24E78CA900FAD67D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
